@@ -12,6 +12,18 @@ spring:
           skipSslValidation: true
           username: "liujunjie1992"
           password: "*************"
+  rabbitmq:
+    host: 192.168.17.197
+    port: 10093
+    username: admin
+    password: 123456
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
 eureka:
   client:
     serviceUrl:
