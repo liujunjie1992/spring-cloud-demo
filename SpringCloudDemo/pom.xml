@@ -15,6 +15,7 @@
     <module>ConsumerDemo</module>
     <module>HystrixDashboardTurbine</module>
     <module>SpringConfigServer</module>
+    <module>SpringConfigClient</module>
   </modules>
   <url>http://www.junjieis.me</url>
 

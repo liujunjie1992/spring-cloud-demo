@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+  cloud:
+    config:
+      name: neo-config
+      profile: dev
+      uri: http://localhost:8008/
+      label: master
+server:
+  port: 8009
