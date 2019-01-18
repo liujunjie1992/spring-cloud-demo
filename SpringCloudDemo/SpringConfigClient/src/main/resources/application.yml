@@ -9,3 +9,6 @@ spring:
       label: master
 server:
   port: 8009
+management:
+  security:
+    enabled: false
