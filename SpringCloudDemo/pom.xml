@@ -13,6 +13,7 @@
     <module>EurekaDemo</module>
     <module>ProducerDemo</module>
     <module>ConsumerDemo</module>
+    <module>HystrixDashboardTurbine</module>
   </modules>
   <url>http://www.junjieis.me</url>
 
