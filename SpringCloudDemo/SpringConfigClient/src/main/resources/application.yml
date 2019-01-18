@@ -12,3 +12,7 @@ server:
 management:
   security:
     enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: *
