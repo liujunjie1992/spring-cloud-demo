@@ -9,6 +9,14 @@ spring:
       discovery:
         enabled: true
         serviceId: spring-cloud-config-server
+    bus:
+      trace:
+        enabled: true
+  rabbitmq:
+    host: 192.168.9.89
+    port: 5672
+    username: admin
+    password: 123456
 server:
   port: 8009
 management:
