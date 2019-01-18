@@ -5,8 +5,10 @@ spring:
     config:
       name: neo-config
       profile: dev
-      uri: http://localhost:8008/
       label: master
+      discovery:
+        enabled: true
+        serviceId: spring-cloud-config-server
 server:
   port: 8009
 management:
@@ -15,4 +17,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: *
+        include: '*'
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
