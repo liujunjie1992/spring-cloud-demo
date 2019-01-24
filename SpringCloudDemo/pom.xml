@@ -17,6 +17,7 @@
     <module>SpringConfigServer</module>
     <module>SpringConfigClient</module>
     <module>ZuulDemo</module>
+    <module>GatewayDemo</module>
   </modules>
   <url>http://www.junjieis.me</url>
 
